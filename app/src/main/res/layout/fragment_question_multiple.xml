@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:rowCount='2'
+    android:columnCount="2"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/answers">
+
+    <Button
+        android:id="@+id/btn_answer_1"
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:lines="4"
+        android:ellipsize="end"
+        android:text="Answer 1 is too long to fit but  is not enough whyyy" />
+
+    <Button
+        android:id="@+id/btn_answer_2"
+        android:layout_width="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:lines="4"
+        android:ellipsize="end"
+        android:text="Answer 2" />
+
+    <Button
+        android:id="@+id/btn_answer_3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_width="0dp"
+        android:lines="4"
+        android:ellipsize="end"
+        android:text="Answer 3" />
+
+    <Button
+        android:id="@+id/btn_answer_4"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_width="0dp"
+        android:lines="4"
+        android:ellipsize="end"
+        android:text="Answer 4" />
+</GridLayout>
